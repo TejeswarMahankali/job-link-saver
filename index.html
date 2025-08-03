@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Job Link Saver</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Job Link Saver</h1>
+
+  <form id="jobForm">
+    <input type="text" id="jobTitle" placeholder="Job Title" required>
+    <input type="text" id="company" placeholder="Company Name" required>
+    <input type="url" id="link" placeholder="Job Link" required>
+    <input type="text" id="source" placeholder="Source (LinkedIn, WhatsApp...)" required>
+    <textarea id="notes" placeholder="Notes (optional)"></textarea>
+    <button type="submit">Save Job</button>
+  </form>
+
+  <h2>Saved Jobs</h2>
+  <div id="jobList"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
